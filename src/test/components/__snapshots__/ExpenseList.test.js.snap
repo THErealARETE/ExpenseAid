@@ -1,0 +1,385 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list with empty message 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseList
+    expenses={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          no expenses 
+        </p>,
+        <h1>
+          Expense List
+        </h1>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "no expenses ",
+        },
+        "ref": null,
+        "rendered": "no expenses ",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Expense List",
+        },
+        "ref": null,
+        "rendered": "Expense List",
+        "type": "h1",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            no expenses 
+          </p>,
+          <h1>
+            Expense List
+          </h1>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "no expenses ",
+          },
+          "ref": null,
+          "rendered": "no expenses ",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Expense List",
+          },
+          "ref": null,
+          "rendered": "Expense List",
+          "type": "h1",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`should render expense list with expenses 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExpenseList
+    expenses={
+      Array [
+        Object {
+          "amount": 200,
+          "createdAt": 0,
+          "description": "Gem",
+          "id": "1",
+          "note": "",
+        },
+        Object {
+          "amount": 300,
+          "createdAt": -345600000,
+          "description": "wezzy",
+          "id": "2",
+          "note": "everything stem ",
+        },
+        Object {
+          "amount": 400,
+          "createdAt": 345600000,
+          "description": "arm",
+          "id": "3",
+          "note": "",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <ExpenseListItem
+            amount={200}
+            createdAt={0}
+            description="Gem"
+            id="1"
+            note=""
+          />,
+          <ExpenseListItem
+            amount={300}
+            createdAt={-345600000}
+            description="wezzy"
+            id="2"
+            note="everything stem "
+          />,
+          <ExpenseListItem
+            amount={400}
+            createdAt={345600000}
+            description="arm"
+            id="3"
+            note=""
+          />,
+        ],
+        <h1>
+          Expense List
+        </h1>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "amount": 200,
+          "createdAt": 0,
+          "description": "Gem",
+          "id": "1",
+          "note": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "amount": 300,
+          "createdAt": -345600000,
+          "description": "wezzy",
+          "id": "2",
+          "note": "everything stem ",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "amount": 400,
+          "createdAt": 345600000,
+          "description": "arm",
+          "id": "3",
+          "note": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Expense List",
+        },
+        "ref": null,
+        "rendered": "Expense List",
+        "type": "h1",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <ExpenseListItem
+              amount={200}
+              createdAt={0}
+              description="Gem"
+              id="1"
+              note=""
+            />,
+            <ExpenseListItem
+              amount={300}
+              createdAt={-345600000}
+              description="wezzy"
+              id="2"
+              note="everything stem "
+            />,
+            <ExpenseListItem
+              amount={400}
+              createdAt={345600000}
+              description="arm"
+              id="3"
+              note=""
+            />,
+          ],
+          <h1>
+            Expense List
+          </h1>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "amount": 200,
+            "createdAt": 0,
+            "description": "Gem",
+            "id": "1",
+            "note": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "amount": 300,
+            "createdAt": -345600000,
+            "description": "wezzy",
+            "id": "2",
+            "note": "everything stem ",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "amount": 400,
+            "createdAt": 345600000,
+            "description": "arm",
+            "id": "3",
+            "note": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Expense List",
+          },
+          "ref": null,
+          "rendered": "Expense List",
+          "type": "h1",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

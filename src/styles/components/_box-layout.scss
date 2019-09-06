@@ -1,0 +1,29 @@
+// yet to create login page and add class name
+
+.box-layout{
+    align-items: centre;
+    background: url();
+    background-size:cover;
+    display: flex;
+    height: 100 hv;
+    width: 100vw;
+    justify-content: centre;
+}
+
+// use in login page
+.box-layout__box{
+    background: fade-out(white, .15 );
+    border-radius: 3px;  
+    padding: $l-size $m-size;
+    text-align: center;
+    width: 25 rem;
+}
+
+//use in title div on login page
+.box-layout__title{
+    margin: 0 0 $m-size 0;
+    line-height: 1;
+     
+}
+
+// 
